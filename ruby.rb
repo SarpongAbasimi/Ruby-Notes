@@ -27,7 +27,27 @@ class Square < Shape
     end
 end
 
-
+=begin
 firstSquare = Square.new(5)
 myCount = Square.new(75)
 puts Square.num_squares
+=end
+
+class Person
+    def initialize(name)
+        @name=name
+    end
+
+    def name
+        return " " + @name
+    end
+end
+
+class Doctor < Person
+    def name 
+        "Dr".concat(super)
+    end
+end
+
+doc= Doctor.new('Nana')
+puts doc.name
