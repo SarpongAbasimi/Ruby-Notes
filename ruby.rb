@@ -49,5 +49,34 @@ class Doctor < Person
     end
 end
 
-doc= Doctor.new('Nana')
-puts doc.name
+class Myage
+    def initialize(age,name)
+        @age=age
+        @name=name
+    end
+    #age method is private
+    private
+    def age
+        return "You are #{@age} years old"
+    end
+
+    public
+    def talk
+        return "I am public"
+    end
+    
+    #protected methods can still be accessed by other methods in the class
+    def name
+        " my name is #{@name}"
+    end
+    
+    public
+    def get_name
+        return "Your name #{@name} was protected but I can still get it"
+    end
+
+    protected :name
+end
+
+ageOne = Myage.new(5,'kofi')
+puts ageOne.get_name()
