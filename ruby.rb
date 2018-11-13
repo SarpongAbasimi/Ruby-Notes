@@ -91,4 +91,11 @@ class Myage
 end
 
 ageOne = Myage.new(5,'kofi')
-puts ageOne.get_name()
+#puts ageOne.get_name()
+=begin
+che =(3..8).detect {|x| x%2==0}
+puts che
+=end
+
+#inclusions from other directories
+$:.each {|d| puts d}
