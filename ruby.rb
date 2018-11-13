@@ -98,4 +98,4 @@ puts che
 =end
 
 #inclusions from other directories
-$:.each {|d| puts d}
+
