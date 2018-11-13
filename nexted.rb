@@ -1,3 +1,11 @@
+#called  the ruby module to this file
+require_relative 'ruby'
+
+
+puts TryingModule.callme
+
+
+
 class Drawing
     def self.i_create_circle(side_length)
         Square.new(side_length)
@@ -18,5 +26,5 @@ class Drawing
 end
 
 
-firstCircle=Drawing.i_create_circle(4)
-puts firstCircle.return_Side_length()
+#firstCircle=Drawing.i_create_circle(4)
+#puts firstCircle.return_Side_length()

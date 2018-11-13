@@ -1,3 +1,15 @@
+
+#Created a ruby Module
+module TryingModule
+    def TryingModule.callme
+        return "I am from TryingModule"
+    end
+end
+
+
+
+
+
 #Shape is the parent class
 class Shape
 end
