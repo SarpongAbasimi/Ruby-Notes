@@ -20,7 +20,9 @@ when called on an object , it returns a unique id of the object.
 this is really important becasue it enables one to know whether  two objects are equal or not.
 
 
-3) The third innate ability is the send method.
+3) The third innate ability is the send or (__send__) method.
+Note that send can access an objects private method. The safer version of send
+is public_send.
 
 =end
 
