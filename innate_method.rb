@@ -36,3 +36,28 @@ if ticket.respond_to?('price')
 else
    puts "Sorry , I don't know what you mean"
 end
+
+
+
+
+
+#classes in Ruby 
+=begin
+In ruby, classes can be created by using the key word class
+eg -  class Ticket
+            #methods in here
+      end
+
+2) Anonymous classes can also be created by
+    using a variable name and calling class.new on the variable
+=end
+
+ticket = class.new
+    
+#if You would like to add normal method to the class it changes to
+ticket = class.new do
+            #methods here
+         end
+
+
+
