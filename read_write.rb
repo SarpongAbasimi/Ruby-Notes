@@ -1,5 +1,6 @@
-//In ruby there are soo may ways to achive a task
-// A class with methods can be created like this 
+=begin In ruby there are soo may ways to achive a task
+A class with methods can be created like this 
+=end
 
 
 class Person 
@@ -34,8 +35,9 @@ class Person
   end
 end
 
-//Now when an instance of the class is created it will expect to receive 2 arguments
-//setter_function can use to set the variable for the instance variable
+=begin Now when an instance of the class is created it will expect to receive 2 arguments
+setter_function can use to set the variable for the instance variable
+=end
 
 class Person
   def initialize(name ,venue)
@@ -52,12 +54,12 @@ class Person
   end
 end
 
-
+=begin
 //This is all great but when the code starts to scale it can be a little bit ugly
 //Ruby introduces the reader and writer attr which eliminate the need for exlicitly defininf methods
 // note that a combination of reader and writer is attr_accessor.
 //This means that instead of having both attr_reader and attr_writer for name , it could be replace by attr_accessor :name
-
+=end
 
 class Person
   attr_reader :name , :event
