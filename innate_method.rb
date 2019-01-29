@@ -1,5 +1,5 @@
 =begin
-it is important to recognise that everything in ruby is an object.
+it is important to recognise that everything in ruby is an object except blocks.
 When an object is created with Object.new , that object automatically pocesses 
 innate abilities but we will look at three main regularly used methods.
 
