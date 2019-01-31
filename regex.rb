@@ -17,9 +17,11 @@ Some commonly used regex.
 7)Match any whitespace character  /\s/
 8)Match any character that is not a digit by using /\D/
 9)Matcg and character that is not a and alphanumeric or unserscore character by using /\W/
-
-
-
+10)It is important to note that when characters are grouped in parenthesis () and matched using ruby regular expressions, ruby automatically generates
+  gobal variables eacth representing each to the sub groups. 
+  example - /([A-Za-z]+),[A-Za-z]+,(Mrs?\.)/.match("Peel,Emma,Mrs.,talented amateur")
+  calling $1 in ruby string interpolation will result in Peel.
+  calling $2 will result in Emma and calling $0 will result in ruby printing out the name of the file.(Basically your carrunt working file.
 =end
 
 
