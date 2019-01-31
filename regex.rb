@@ -12,6 +12,11 @@ Some commonly used regex.
 2)Character classses eg /[dr]ae/ #This is saying , match characters starting with eaither a d or r followed by ae
 3)Range eg /[a-z]/
 4)Caret - Match anything except [^a-z]
+5)Match numbers /\d/
+6)Match any alphabetical character /\w/
+7)Match any whitespace character  /\s/
+8)Match any character that is not a digit by using /\D/
+9)Matcg and character that is not a and alphabetical character by using /\D/
 
 
 
