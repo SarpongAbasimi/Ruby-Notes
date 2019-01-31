@@ -11,6 +11,7 @@ Some commonly used regex.
 1) The dot wildcard(.) eg /.ele/ #This is saying match any letter followed by ele.
 2)Character classses eg /[dr]ae/ #This is saying , match characters starting with eaither a d or r followed by ae
 3)Range eg /[a-z]/
+4)Caret - Match anything except [^a-z]
 
 
 
