@@ -10,6 +10,12 @@ eg) 'The tree' =~ /t/  #this will return 4 since t is at possition 4
 Some commonly used regex.
 1) The dot wildcard(.) eg /.ele/ #This is saying match any letter followed by ele.
 2)Character classses eg /[dr]ae/ #This is saying , match characters starting with eaither a d or r followed by ae
+3)Range eg /[a-z]/
+
+
+
 =end
+
+
 
 
