@@ -16,7 +16,7 @@ Some commonly used regex.
 6)Match any alphabetical character /\w/
 7)Match any whitespace character  /\s/
 8)Match any character that is not a digit by using /\D/
-9)Matcg and character that is not a and alphabetical character by using /\D/
+9)Matcg and character that is not a and alphanumeric or unserscore character by using /\W/
 
 
 
