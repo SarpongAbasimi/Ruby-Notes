@@ -52,4 +52,36 @@ RSpec.describe 'An ideal sandwich' do
         toppings=sandwich.topping << 'cheese'
 
         expect(toppings).not_to be_empty
+      end
 end
+  
+  
+=begin
+  Ruby allows to avoid repetions.
+In the previous example whenever a test case is being written
+the sandwich setup code has to be copied and repeted again. We can to better !
+rspec allows as to use hooks , helper methods and let construct to avoid this repetitions.
+=end
+
+#examples
+
+Rspec.describe Sandwich do
+  before { @sandwich = Sandwhich.new }
+  
+      it 'is delicious' do
+        # sandwich =Sandwich.new('delicious',[]) Now we don't need this
+        taste = @sandwich.taste
+          #expectations are like assertions in other languages. Here we tell the programme what we expect state to be.
+        expect(taste).to eq('delicious')
+    end
+  
+        it 'should be able to have toppings' do 
+        #sandwich=Sandwich.new('delicious',[])
+        toppings=@sandwich.topping << 'cheese'
+
+        expect(toppings).not_to be_empty
+      end
+end
+  
+  
+  
