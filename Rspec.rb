@@ -43,6 +43,7 @@ RSpec.describe 'An ideal sandwich' do
     it 'is delicious' do
         sandwich =Sandwich.new('delicious',[])
         taste = sandwich.taste
+          #expectations are like assertions in other languages. Here we tell the programme what we expect state to be.
         expect(taste).to eq('delicious')
     end
 end
