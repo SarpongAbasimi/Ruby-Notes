@@ -23,7 +23,7 @@ command will look into the spec subdirectory and run the fle in there
 #instead of using class Sandwich Struct could have been used.
 #Struct is one of Rubys built in class.
 
-Sandwich= Struct.new(:taste , :topping)
+Sandwich= Struct.new(:taste , :topping) do
 
 end
 
