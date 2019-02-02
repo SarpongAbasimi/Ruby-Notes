@@ -46,4 +46,10 @@ RSpec.describe 'An ideal sandwich' do
           #expectations are like assertions in other languages. Here we tell the programme what we expect state to be.
         expect(taste).to eq('delicious')
     end
+  
+      it 'should be able to have toppings' do 
+        sandwich=Sandwich.new('delicious',[])
+        toppings=sandwich.topping << 'cheese'
+
+        expect(toppings).not_to be_empty
 end
