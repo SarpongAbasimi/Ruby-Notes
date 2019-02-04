@@ -4,7 +4,8 @@
   rspec --fd ('This runs the specs in a nicely documented format') # f =format #d =documentation
   rspec -e Hello -fd ("This runs just a single example which has Hello in its description")
   rspec <file path>:linenumber (this runs a specific exmaple at the line provided)
-  rspec --only-failures ('reruns just examples that failed')
+  rspec --only-failures ('reruns just examples that failed') use RSpec.config {|c| example_status_persistence_file_path= path}
+  note =>  to run just failures Rspec needs a place to put failed example specs.
 =end
 
 =begin
