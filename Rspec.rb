@@ -4,6 +4,7 @@
   rspec --fd ('This runs the specs in a nicely documented format') # f =format #d =documentation
   rspec -e Hello -fd ("This runs just a single example which has Hello in its description")
   rspec <file path>:linenumber (this runs a specific exmaple at the line provided)
+  rspec --only-failures ('reruns just examples that failed')
 =end
 
 =begin
