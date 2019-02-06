@@ -6,6 +6,7 @@
   rspec <file path>:linenumber (this runs a specific exmaple at the line provided)
   rspec --only-failures ('reruns just examples that failed') use RSpec.config {|c| example_status_persistence_file_path= path}
   note =>  to run just failures Rspec needs a place to put failed example specs.
+  rspec --profile ("This tells You about the profile of your test meaning the lowest running tests")
 =end
 
 =begin
