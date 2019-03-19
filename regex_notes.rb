@@ -1,4 +1,3 @@
-#Regular expression in Ruby
 
 =begin
 Regular expressions are used to match patterns.
